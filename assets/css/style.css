@@ -80,7 +80,10 @@ a {
     cursor: pointer;
 }
 
-input, textarea, select, button {
+input,
+textarea,
+select,
+button {
     font-family: inherit;
     font-size: inherit;
 }
@@ -781,7 +784,7 @@ input, textarea, select, button {
     margin: 85px 0 170px;
 }
 
-.apppointment__body{
+.apppointment__body {
     padding: 100px 0;
     background: #dfecf7;
     text-align: center;
@@ -790,16 +793,14 @@ input, textarea, select, button {
 
 .appointment__heading,
 .appointment__desc {
-    
     margin-left: auto;
     margin-right: auto;
 }
 
 .appointment__heading {
-
     position: relative;
     width: 813px;
-    color: #10375C;
+    color: #10375c;
     font-size: 5rem;
     font-weight: 600;
     line-height: 1.2; /* 120% */
@@ -817,13 +818,13 @@ input, textarea, select, button {
     display: inline-block;
     width: 136px;
     height: 2px;
-    background: #2E80CE;
+    background: #2e80ce;
 }
 
 .appointment__desc {
     margin-top: 18px;
     max-width: 617px;
-    color: #575F66;
+    color: #575f66;
     font-size: 1.6rem;
     font-weight: 300;
     line-height: 1.75; /* 175% */
@@ -835,27 +836,25 @@ input, textarea, select, button {
 
 /*==================== footer common section ===================*/
 .footer {
-    background: #10375C;
+    background: #10375c;
     font-family: "Open Sans", sans-serif;
 }
 
 .footer__body {
     padding: 100px 0 28px;
-    
 }
 
 .footer__column {
     display: grid;
     grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
     column-gap: 78px;
-
 }
 
 /*==================== footer colum 1 section ===================*/
 .footer__column--desc {
     margin-top: 22px;
     width: 336px;
-    color: #A9B3BB;
+    color: #a9b3bb;
     width: 336px;
     font-size: 1.6rem;
     font-weight: 400;
@@ -864,7 +863,7 @@ input, textarea, select, button {
 
 /*==================== footer colum 2 section ===================*/
 .footer__column--heading {
-    color: #FFF;
+    color: #fff;
     font-size: 1.6rem;
     font-weight: 600;
     line-height: 1.75; /* 175% */
@@ -879,7 +878,7 @@ input, textarea, select, button {
 }
 
 .footer__column--link {
-    color: #A9B3BB;
+    color: #a9b3bb;
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 1.85; /* 185.714% */
@@ -906,20 +905,20 @@ input, textarea, select, button {
     border-radius: 50%;
     width: 32px;
     height: 32px;
-    color: #2E80CE;
+    color: #2e80ce;
     background: #fff;
     transition: 0.25s;
 }
 
 .footer__social--btn:hover {
     color: #fff;
-    background: #2E80CE;
+    background: #2e80ce;
 }
 
 .footer__column4--desc {
     margin: 20px 0 10px;
     width: 273px;
-    color: #A9B3BB;
+    color: #a9b3bb;
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 1.85; /* 185.714% */
@@ -947,7 +946,7 @@ input, textarea, select, button {
 .footer__form input::placeholder {
     line-height: 1.85;
     font-size: 1.4rem;
-    color: #9CA8B1; /* 185.714% */
+    color: #9ca8b1; /* 185.714% */
 }
 
 .footer__submit {
@@ -956,15 +955,15 @@ input, textarea, select, button {
     height: var(--height);
     line-height: var(--height);
     border-radius: 4px;
-    color: #FFF;
+    color: #fff;
     font-size: 1.4rem;
     font-weight: 600;
     transition: 0.25s;
 }
 
 .footer__submit:hover {
-    color: #2E80CE;
-    background: #FFF;
+    color: #2e80ce;
+    background: #fff;
 }
 
 .footer__copyright {
@@ -974,7 +973,7 @@ input, textarea, select, button {
 .footer__copyright--desc {
     margin-top: 28px 0;
     padding-bottom: 42px;
-    color: #AAB3BA;
+    color: #aab3ba;
     text-align: center;
     font-size: 1.4rem;
     font-weight: 400;
