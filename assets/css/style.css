@@ -45,7 +45,8 @@ a {
 }
 
 .btn:hover {
-    opacity: 0.8;
+    background: #fff;
+    color: #2e80ce;
     cursor: pointer;
 }
 
