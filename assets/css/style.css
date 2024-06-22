@@ -205,6 +205,10 @@ button {
     height: var(--height);
 }
 
+.header-action__signup:hover {
+    border-color: #fff;
+}
+
 /*==================== hero  ====================*/
 .hero {
     margin-top: 70px;
@@ -965,6 +969,7 @@ button {
 .footer__submit:hover {
     color: #2e80ce;
     background: #fff;
+    border-color: #fff;
 }
 
 .footer__copyright {
